@@ -9,62 +9,24 @@ body{
     margin: 0px;
     padding: 0px;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    display: block;
 }
 
 
-.main{
-    flex: 1;
+main{
+    display: block;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
 }
 
-.comida{
-    height: 300px;
-    width: 300px;
-    background-color: red;
-    border-radius: 50%;
+img{
+    width: 200px;
+    height: auto;
+    display: block;
 }
 
-.content{
-    width: 100%;
-
-    background-color: green;
-    flex: 1;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 0px 10px;
-}
-
-.foots{
-    background-color: #fff;
-    height: 150px;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header{
     
-}
-
-.foots:hover{
-    cursor: pointer;
-}
-
-.foots.close{
-    display: none;
-}
-
-.comida > *{
-    display: none;
-}
-.selecte{
-    display: none;
+    height: 70px;
+    background-color: #000;
 }
